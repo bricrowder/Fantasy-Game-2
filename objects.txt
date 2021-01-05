@@ -1,0 +1,49 @@
+Dungeon:
+    item    size            collide     action      drop       
+    barrel  1x1             Y           break       small treasure
+    crate   1x1             Y           break       small treasure 
+    rocks   1x1, 1x2        Y           mine        minerals
+    chair   1x1             Y           sit         n/a
+    table   1x1, 2x2        Y           n/a         n/a
+    bookcase    1x2         Y           take        recipe
+    torture table   1x2     Y           n/a         n/a 
+
+    Enemies:
+    spider  1x1             N           attack      spider blood
+    rat     1x1             N           attack      rat tail
+    goblin  1x1             N           attack      small treasure
+
+
+
+Overworld
+    Trees   1x1, 1x2, 2x2   Y           cut         wood
+    Shrubs  1x1             N           n/a         n/a
+    Grass   1x1             N           n/a         n/a
+    Rocks   1x1, 1x2, 2x1   Y           mine        minerals
+    Fish    1x1             N           Fish mg     fish meat
+
+    Enemies:
+    bear    1x2             N           attack      bear eyes
+    rabbit  1x1             N           attack      rabbit tail
+    deer    1x2             N           attack      deer hooves
+
+
+
+
+
+Object Info
+    obj value       location    
+    name            config
+    animations      config
+        standing    config      (array of quads)
+        walking     config      (array of quads)
+        death       config      (array of quads)
+        dead        config      (array of quads)
+    collide         config
+    action          config
+    drop            config
+    size            code
+
+
+
+
